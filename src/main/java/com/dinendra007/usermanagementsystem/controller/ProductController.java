@@ -2,17 +2,13 @@ package com.dinendra007.usermanagementsystem.controller;
 
 import com.dinendra007.usermanagementsystem.entity.Product;
 import com.dinendra007.usermanagementsystem.service.ProductService;
-import com.example.NoUserFoundException;
-import com.example.Users;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
 
 
 @RestController
